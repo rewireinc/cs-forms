@@ -2,9 +2,8 @@
 
 このリポジトリは、リワイア社のカスタマーサポートフォーム用HTMLファイルを管理するためのものです。現在、以下のサービス用フォームが含まれています：
 
-- App Unity Safe Delete（アプリユニティセーフデリート）
-- さんクス（thanx）
-- Pafit問い合わせフォーム
+- App Unity Safe Delete
+- さんクス
 
 ## フォームスクリプトの修正手順
 
@@ -20,7 +19,6 @@
 
 - `au-safe-delete-cs.html` - App Unity Safe Delete用フォーム
 - `thanx-cs.html` - さんクス用フォーム
-- `au-inquiry.html` - Pafit問い合わせフォーム
 
 ### 3. フォームの編集
 
@@ -39,7 +37,6 @@ HTMLファイルを開いて必要な変更を行います。フォームの内�
 
 - App Unity Safe Delete: https://rewireinc.github.io/cs-forms/au-safe-delete-cs.html
 - さんクス: https://rewireinc.github.io/cs-forms/thanx-cs.html
-- Pafit問い合わせフォーム: https://rewireinc.github.io/cs-forms/au-inquiry.html
 
 ## 注意事項
 
