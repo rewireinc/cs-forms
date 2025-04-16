@@ -8,12 +8,11 @@
 
 ## フォームスクリプトの修正手順
 
-### 1. リポジトリのクローン
+### 1. GitHub上でファイルを編集する
 
-```bash
-git clone https://github.com/rewireinc/cs-forms.git
-cd cs-forms
-```
+1. [cs-forms リポジトリ](https://github.com/rewireinc/cs-forms)にアクセスします
+2. 編集したいファイルをクリックします
+3. ファイル表示画面の右上にある「鉛筆アイコン」（Edit this file）をクリックします
 
 ### 2. フォームファイルの編集
 
@@ -77,17 +76,16 @@ var zsFieldsDisplayLabelArray = new Array("件名","氏名","メールアドレ�
 <input type='hidden' name='returnURL' value='https://rewireinc.github.io/cs-forms/thanx-cs.html'/>
 ```
 
-### 4. 変更のコミットとプッシュ
+### 4. 変更のコミットと保存
 
-```bash
-git add .
-git commit -m "フォームの変更内容を簡潔に記述"
-git push origin main
-```
+1. ファイルの編集が完了したら、ページ下部の「Commit changes」セクションに移動します
+2. 変更内容の説明を入力します（例：「フォームのスタイルを更新」）
+3. 「Commit directly to the main branch」を選択します
+4. 「Commit changes」ボタンをクリックして変更を保存します
 
 ### 5. GitHub Pagesでの確認
 
-変更がマージされると、GitHub Pagesで自動的に公開されます。以下のURLで確認できます：
+変更がコミットされると、GitHub Pagesで自動的に公開されます。以下のURLで確認できます：
 
 - App Unity Safe Delete: https://rewireinc.github.io/cs-forms/au-safe-delete-cs.html
 - さんクス: https://rewireinc.github.io/cs-forms/thanx-cs.html
